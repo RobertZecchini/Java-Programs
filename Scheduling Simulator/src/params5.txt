@@ -1,0 +1,9 @@
+#This file produces a bunch of processes within a very short amount of time and each process
+#takes a long time to complete. This was done in order to stress test the program.
+1001	totalSimulationTime
+200000	quantum
+25	contextSwitchTime
+5000000	averageProcessLength
+1000	averageCreationTime
+45	IOBoundPct
+40000	averageIOserviceTime

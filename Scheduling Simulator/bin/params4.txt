@@ -1,0 +1,11 @@
+#This tests CPU bounded processes to see how many processes get completed in 1000 seconds.
+#This file also makes processes more likely to stay in the ready queue than in the I/O
+#service queue. Don't worry about multiple lines of comments since my program is able to
+#read multilined comments as long as there's a hashtag as the first character of the line.
+1000	totalSimulationTime
+200	quantum
+25	contextSwitchTime
+1000000	averageProcessLength
+1000000	averageCreationTime
+15	IOBoundPct
+400	averageIOserviceTime
